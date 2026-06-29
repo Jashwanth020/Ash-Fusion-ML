@@ -28,7 +28,7 @@ Predicting Ash Fusion Temperatures is critical for mitigating slagging and fouli
 ## Getting Started
 
 To execute inference on new data:
-1. Place your experimental XRF composition data into an Excel or CSV file.
+1. Place your  composition data into an Excel or CSV file.
 2. Ensure the base oxide columns (`SiO2`, `Al2O3`, `Fe2O3`, `CaO`, `K2O`, etc.) are mapped correctly.
 3. Run `predict_new_data.py` to automatically impute missing columns, engineer ratio features, predict AFTs, and apply physical reconciliation.
 
