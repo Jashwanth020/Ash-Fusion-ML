@@ -1,0 +1,45 @@
+{
+    "Random Forest": {
+        "n_estimators": 708,
+        "max_depth": 12,
+        "min_samples_split": 4,
+        "min_samples_leaf": 2,
+        "max_features": 0.42618485529272754
+    },
+    "Extra Trees": {
+        "n_estimators": 218,
+        "max_depth": 12,
+        "min_samples_split": 4,
+        "min_samples_leaf": 2,
+        "max_features": 0.943841913337782
+    },
+    "XGBoost": {
+        "n_estimators": 913,
+        "max_depth": 2,
+        "learning_rate": 0.06275338442240416,
+        "subsample": 0.7447176415561808,
+        "colsample_bytree": 0.6198232126270792,
+        "reg_alpha": 0.8426079011202474,
+        "reg_lambda": 5.606779811758958
+    },
+    "GBRT": {
+        "n_estimators": 113,
+        "max_depth": 3,
+        "learning_rate": 0.18789679178149188,
+        "subsample": 0.8039690028304435,
+        "min_samples_split": 22,
+        "min_samples_leaf": 12
+    },
+    "CatBoost": {
+        "iterations": 918,
+        "depth": 4,
+        "learning_rate": 0.03159406326955189,
+        "l2_leaf_reg": 0.11456413768518066,
+        "bagging_temperature": 0.9513577535618937
+    },
+    "AdaBoost": {
+        "n_estimators": 352,
+        "learning_rate": 1.4597421548917473,
+        "loss": "square"
+    }
+}
